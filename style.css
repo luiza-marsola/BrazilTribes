@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #ECE9D8;
+    background-image: url('amazon.jpg');
+    background-size: cover;
+}
+
+
+header {
+    background-color: #145939;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D9B341;
+    font-family: 'Comfortaa', cursive;
+}
+
+p,ul,ol {
+    line-height: 2;
+}
+
+
+
+.image-container img {
+    max-width: 100%;
+    }
+
+
+#about h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center; 
+    color: #145939;
+    font-size: 35px;
+}
+
+#about {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+    color: #033E8C;   
+    
+}
+
+
+#help h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center; 
+    color: #145939;
+    font-size: 35px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+#help {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #033E8C;
+}
+
+#info h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center; 
+    color: #145939;
+    font-size: 35px;
+}
+
+.image3-container img {
+    max-width: 100%;
+    }
+
+#info {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+    color: #033E8C;   
+}
+
+@media screen and (min-width: 1200px) {
+    #about {
+        width: 70%;
+        margin: 20px auto;
+    }
+    #info {
+        width: 70%;
+        margin: 20px auto;
+    }
+    #help {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    }
